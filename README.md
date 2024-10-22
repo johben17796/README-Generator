@@ -54,7 +54,8 @@ Contributing
 
 
 
-Testing Information
+Testing Information:
+
 To test the code, run it and check if the README file is generated correctly.
 
 

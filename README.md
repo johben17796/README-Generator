@@ -37,6 +37,7 @@ When in the command line, use npm i to install the inquirer npm package, then us
 
 Usage Information:
 After using node index.js, answer all of the questions, your README will be generated in the directory you run the program in.
+
 This Video is also a usage guide: [Showcase](https://drive.google.com/file/d/1W6wBchTNZsRGztNJr-btOKh4LcgMyeIJ/view?usp=sharing)
 
 

@@ -1,75 +1,38 @@
-# y
+# Sample Title
 
 ## Description
 
-y
-
-
+Sample Description
 
 ## Table of Contents
 
-
-
 - [Installation](#installation)
-
 - [Usage](#usage)
-
 - [Contributing](#contributing)
-
 - [Tests](#tests)
-
 - [License](#license)
-
 - [Questions](#questions)
-
-
 ## Installation
 
-
-
-y
-
-
+Sample Installation Guide
 
 ## Usage
 
-
-
-Usage Information:
-y
-
-
+Usage Information:If you have a usage guide, put it here.
 
 ## Contributing
 
-
-
-Contributing
-y
-
-
+continue to fill the questions in
 
 ## Tests
 
-
-
-Testing Information
-y
-
-
+Sample Testing Guide
 
 ## License
 
-
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Questions
 
-
-
-GitHub: [asdf](https://github.com/asdf)
-
-Contact me at asdf
+GitHub: [johben17796](https://github.com/johben17796)
+Contact me at johben17796@gmail.com

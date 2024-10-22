@@ -74,49 +74,9 @@ function init() {
             const licenseMarkdown = generateMarkdown(data.license)
             const projectUsername = data.username;
             const userEmail = data.email;
-            const theData = `# ${projectTitle}\n\n## Description\n\n${projectDescription}\n\n
-
-## Table of Contents\n\n
-
-- [Installation](#installation)\n
-- [Usage](#usage)\n
-- [Contributing](#contributing)\n
-- [Tests](#tests)\n
-- [License](#license)\n
-- [Questions](#questions)\n
-
-## Installation\n\n
-
-${installationGuide}\n\n
-
-## Usage\n\n
-
-Usage Information:
-${usageGuide}\n\n
-
-## Contributing\n\n
-
-Contributing
-${contributingGuide}\n\n
-
-## Tests\n\n
-
-Testing Information
-${testingGuide}\n\n
-
-## License\n\n
-
-${licenseMarkdown}\n\n
-
-## Questions\n\n
-
-GitHub: [${projectUsername}](https://github.com/${projectUsername})\n
-Contact me at ${userEmail}
-`
-            writeToFile('SAMPLE.md', theData)
+            const theData = `# ${projectTitle}\n\n## Description\n\n${projectDescription}\n\n## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Tests](#tests)\n- [License](#license)\n- [Questions](#questions)\n## Installation\n\n${installationGuide}\n\n## Usage\n\nUsage Information:${usageGuide}\n\n## Contributing\n\n${contributingGuide}\n\n## Tests\n\n${testingGuide}\n\n## License\n\n${licenseMarkdown}\n\n## Questions\n\nGitHub: [${projectUsername}](https://github.com/${projectUsername})\n\nContact me at ${userEmail}`
+            writeToFile('youCanChangeThis.md', theData)
         })
-
-
 }
 
 // Function call to initialize app
